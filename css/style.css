@@ -1,0 +1,290 @@
+/* Import the font from the Google Fonts library 📥*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/* General adjustment of all elements♻️ */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+body {
+  background-color: #fffcfd;
+}
+/* HEADER */
+header::before {
+  content: "";
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+/* Part one > content-->(img.logo-h1-p-a-h2-p) */
+.part-one {
+  margin: 150px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.content .logo {
+  width: 100px;
+  margin-bottom: 25px;
+}
+.content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.content p {
+  opacity: 0.7;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content a {
+  width: 200px;
+  padding: 7px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+}
+.content .link-one {
+  background-color: #5dccbb;
+  box-shadow: 10px 10px 29px -3px rgba(93, 204, 187, 0.82);
+  -webkit-box-shadow: 10px 10px 29px -3px rgba(93, 204, 187, 0.82);
+  -moz-box-shadow: 10px 10px 29px -3px rgba(93, 204, 187, 0.82);
+}
+.content .link-two {
+  background-color: #8796ff;
+  box-shadow: 10px 10px 29px -3px rgba(135, 150, 255, 0.82);
+  -webkit-box-shadow: 10px 10px 29px -3px rgba(135, 150, 255, 0.82);
+  -moz-box-shadow: 10px 10px 29px -3px rgba(135, 150, 255, 0.82);
+}
+.content h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 150px;
+}
+/* part-two ---> (img-info-.txet-h1-p) */
+.part-two {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.part-two img {
+  width: 50%;
+  height: auto;
+}
+.part-two .info {
+  gap: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info .txet h1 {
+  margin-bottom: 10px;
+}
+.info .txet p {
+  font-size: 20px;
+}
+/* part-three ---> (info-part-three - h1 - img - p)*/
+.part-three {
+  gap: 100px;
+  display: flex;
+  margin-top: 70px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.part-three .info-part-three {
+  width: 50%;
+}
+.info-part-three h1 {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.info-part-three p {
+  font-size: 25px;
+}
+.part-three img {
+  width: 100%;
+}
+/* part-four ---> (.titel - h1 - p - .icons) */
+.part-four {
+  gap: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.part-four .titel {
+  text-align: center;
+}
+.part-four .titel h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.part-four .titel p {
+  opacity: 0.7;
+  font-size: 20px;
+}
+.part-four .icos {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.info-icos {
+  width: 100%;
+}
+.info-icos img {
+  margin: 20px;
+}
+.info-icos h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+/* part-five ---> peat-five */
+
+.part-five {
+  gap: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* part-six ---> (h1 - p - a)*/
+
+.part-six {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.part-six h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.part-six p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.part-six a {
+  width: 200px;
+  padding: 7px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.part-six .link-one {
+  background-color: #5dccbb;
+  box-shadow: 10px 10px 29px -3px rgba(93, 204, 187, 0.82);
+  -webkit-box-shadow: 10px 10px 29px -3px rgba(93, 204, 187, 0.82);
+  -moz-box-shadow: 10px 10px 29px -3px rgba(93, 204, 187, 0.82);
+}
+.part-six .link-two {
+  background-color: #8796ff;
+  box-shadow: 10px 10px 29px -3px rgba(135, 150, 255, 0.82);
+  -webkit-box-shadow: 10px 10px 29px -3px rgba(135, 150, 255, 0.82);
+  -moz-box-shadow: 10px 10px 29px -3px rgba(135, 150, 255, 0.82);
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #89898b;
+  justify-content: space-around;
+}
+footer .logo img {
+  margin: 30px;
+  width: 60px;
+}
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .links a {
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+footer .links a:hover {
+  color: #5dccbb;
+}
+footer .icos a i {
+  padding: 10px;
+  font-size: 25px;
+  color: #b6b8b9;
+}
+footer .icos a i:hover {
+  color: #5dccbb;
+}
+
+/* The control part for responding to screens 💻📱🖥️ */
+
+@media (max-width: 400px) {
+  header::before {
+    content: "";
+    background-image: url("../images/bg-header-mobile.png");
+  }
+}
+
+@media (max-width: 700px) {
+  .part-two {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .part-two img {
+    width: 100%;
+  }
+  .part-two .info {
+    width: 100%;
+    text-align: center;
+  }
+  /* part-three */
+  .part-three img {
+    width: 100%;
+  }
+  .part-three .info-part-three {
+    width: 100%;
+  }
+  /* part-four */
+  .icos {
+    flex-wrap: wrap;
+  }
+  /* part-five */
+  .part-five {
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* footer */
+  footer .links {
+    padding: 0px 25px 10px 40px;
+  }
+  footer .links a {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+}
